@@ -1,14 +1,19 @@
 Introduction
 ---
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+Simple frontend assessment for MindArc.
+
+## How to run?
+Execute `npm run start` in the root directory.
+
+![alt text](./assets/images/screenshot.png)
 
 Exercise 1
 ---
 Build a responsive page based on the designs.
 
 ##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+1. :white_check_mark: Match the designs exactly.
+2. :white_check_mark: Needs to be responsive.
 
 ##### Designs
 * exercise1-desktop.png
@@ -24,16 +29,16 @@ Exercise 2
 Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
 
 ##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+1. :white_check_mark: Display data in tabs on desktop.
+2. :white_check_mark: Display data in an accordion on mobile.
+3. :white_check_mark: Only 1 accordion/tab should be open at a time.
+4. :white_check_mark: Open the first accordion/tab on load.
+5. :white_check_mark: If the open accordion is selected, close it.
 
 ###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+* :white_check_mark: Improve the user experience with meaningful animations/transitions.
+* :white_check_mark: Design and styling.
+* :white_check_mark: Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
 
 Submission
 ---

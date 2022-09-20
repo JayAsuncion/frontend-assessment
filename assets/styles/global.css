@@ -1,0 +1,19 @@
+:root {
+    --text-color-primary: #333333;
+    --text-color-secondary: #FFFFFF;
+    --button-border-color: #333333;
+    --button-background-color-primary: #FFFFFF;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--text-color-primary);
+}
+
+body {
+    margin: 0;
+}
+
+code {
+    background-color: #EEEEEE;
+}

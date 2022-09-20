@@ -1,0 +1,36 @@
+.banner-container {
+    position: relative;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-bg-image {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.banner-text-container {
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+}
+.banner-text-container .banner-heading,
+.banner-text-container .banner-subheading {
+    color: var(--text-color-secondary);
+}
+.banner-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.banner-subheading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        height: 325px;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app-components": [
+        "assets/ts/components"
+      ],
+      "@app-components/*": [
+        "assets/ts/components/*"
+      ],
+      "@app-pages": [
+        "assets/ts/pages"
+      ],
+      "@app-pages/*": [
+        "assets/ts/pages/*"
+      ],
+      "@app-utils": [
+        "assets/ts/utils"
+      ],
+      "@app-utils/*": [
+        "assets/ts/utils/*"
+      ]
+    }
+  }
+}

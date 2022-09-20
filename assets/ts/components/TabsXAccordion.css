@@ -1,0 +1,56 @@
+:root {
+    --tab-button-active-background-color: #171d1c;
+    --tab-button-active-text-color: #FFFFFF;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+@keyframes open {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scaleY(0.8);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+.tabs-container {
+    max-width: 991px;
+    margin: auto;
+    padding: 2rem;
+}
+.tab-button {
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    border: none;
+}
+.tab-button.active {
+    background-color: var(--tab-button-active-background-color);
+    color: var(--tab-button-active-text-color);
+}
+.tab-content {
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 8px 30px 0;
+    animation: fadeIn .5s ease-out;
+}
+
+@media (max-width: 768px) {
+    .tabs-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tab-button {
+        width: 100%;
+    }
+    .tab-content {
+        animation: open .5s ease-out;
+    }
+}
