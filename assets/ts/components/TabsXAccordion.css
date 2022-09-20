@@ -1,6 +1,7 @@
 :root {
     --tab-button-active-background-color: #171d1c;
     --tab-button-active-text-color: #FFFFFF;
+    --tab-button-bottom-border-color: #FFFFFF;
 }
 @keyframes fadeIn {
     from {
@@ -49,6 +50,7 @@
     }
     .tab-button {
         width: 100%;
+        border-bottom: 4px solid var(--tab-button-bottom-border-color);
     }
     .tab-content {
         animation: open .5s ease-out;
